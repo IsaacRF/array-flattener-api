@@ -1,0 +1,52 @@
+{
+    "name": "array-flattener-api",
+    "version": "1.0.0",
+    "description": "An array flattener API",
+    "main": "src/app.ts",
+    "scripts": {
+        "tsc": "tsc",
+        "dev": "ts-node-dev ./src/app.ts --respawn --transpileOnly ",
+        "prod": "tsc && node ./build/app.js",
+        "test": "ts-mocha -p ./tsconfig.json src/test/**/*.spec.ts"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "api",
+        "rest",
+        "restapi",
+        "javascript",
+        "typescript",
+        "js",
+        "ts"
+    ],
+    "author": "Isaac RF",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "http-errors": "^1.8.0",
+        "method-override": "^3.0.0",
+        "reflect-metadata": "^0.1.13",
+        "tsyringe": "^4.3.0",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.2.14",
+        "@types/cors": "^2.8.7",
+        "@types/expect": "^24.3.0",
+        "@types/express": "^4.17.8",
+        "@types/express-jwt": "0.0.42",
+        "@types/http-errors": "^1.8.0",
+        "@types/method-override": "0.0.31",
+        "@types/mocha": "^8.0.3",
+        "@types/winston": "^2.4.4",
+        "chai": "^4.2.0",
+        "mocha": "^8.2.0",
+        "ts-mocha": "^7.0.0",
+        "ts-node": "^9.0.0",
+        "ts-node-dev": "^1.0.0-pre.63",
+        "typescript": "^4.0.3"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "./build",
+        "strict": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "types": [
+            "@types/mocha"
+        ],
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    }
+}
